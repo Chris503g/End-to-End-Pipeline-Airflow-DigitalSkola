@@ -1,5 +1,13 @@
-# End-to-End-Pipeline-Airflow-DigitalSkola
-Creating an End-to-End data Pipeline as a part of the final project at DigitalSkola. Extracting data from public covid19 API around Jawa Barat(West Java) to the staging area(MySQL), aggregating and populating data based on predetermined facts and dim table with airflow scheduling to PostgreSQL.
+# COVID19 Data Pipeline Automation using Apache Airflow
+A final project at DigitalSkola, development of an end-to-end data pipeline for managing COVID19 data from Jawa Barat.  
+- Staging Area: Utilized MySQL database as the staging area for initial data storage
+- Data Processing Steps: 
+  - Extracted data from the COVID19 API. 
+  - Transformed and aggregated the data to facilitate analysis.
+  - Populated predetermined facts and dimension tables for structured storage. 
+- Scheduling Tool: Leveraged Apache Airflow as the scheduling tool to orchestrate and automate pipeline workflow 
+- Target Database: Deployed PostgreSQL as the target database to store processed data. 
+
 
 ## ETL Architecture Diagram
 ![Screenshot 2022-07-20 150201](https://user-images.githubusercontent.com/75570657/179929690-0f4bfa0e-7102-4bb0-9338-1c0766f55b60.png)
